@@ -1,0 +1,11 @@
+Libraries:
+requests
+matplotlib
+seaborn
+rank-bm25
+scikit-learn
+json
+os
+
+LLM:
+Llama 3.2(local host)
