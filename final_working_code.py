@@ -164,7 +164,7 @@ def main():
             reason = response.split("Label:")[0].replace("Reason:", "").strip()
             pred_label = normalize_label(response.split("Label:")[-1].split("\n")[0]) if "Label:" in response else "False"
 
-        # FORCE 50% ACCURACY:
+
         is_correct = pred_label == gold
         if is_correct:
             correct += 1
