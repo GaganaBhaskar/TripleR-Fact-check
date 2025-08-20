@@ -1,16 +1,17 @@
-# 🧠 Fact-Checking with LLaMA + BM25
+# An Explainable Evidence Linking Framework for Automated Fact Verification
 
-This project is an **AI-powered fact-checking system** that uses **BM25** for evidence retrieval and **LLaMA 3.2 (via Ollama)** for reasoning to verify political claims. It processes a dataset of claims with supporting evidence, ranks the most relevant passages, generates reasoning with a fact-checking verdict, and evaluates predictions using accuracy, precision, recall, and F1-score. The system also provides visual insights through confusion matrices, prediction distributions, and BM25 score analysis, making it a complete pipeline for automated claim verification and performance evaluation.
+
+This project is an AI-powered fact-checking system that uses BM25 for evidence retrieval and LLaMA 3.2 (via Ollama) for reasoning to verify political claims. It processes a dataset of claims with supporting evidence, ranks the most relevant passages, generates reasoning with a fact-checking verdict, and evaluates predictions using accuracy, precision, recall, and F1-score. The system also provides visual insights through confusion matrices, prediction distributions, and BM25 score analysis, making it a complete pipeline for automated claim verification and performance evaluation.
 
 ---
 
 ## 🔑 Key Features
-- **BM25-based evidence retrieval** for ranking relevant passages  
-- **LLaMA 3.2 reasoning** via Ollama for fact-checking labels  
-- **Evaluation metrics**: Accuracy, Precision, Recall, F1-score  
-- **Visualizations**: Confusion matrix, prediction distribution, label comparison, BM25 score analysis  
-- **JSON dataset support** for claim–evidence pairs  
-- **Complete pipeline** from claim input → reasoning → evaluation → visualization  
+- BM25-based evidence retrieval for ranking relevant passages  
+- LLaMA 3.2 reasoning via Ollama for fact-checking labels  
+- Evaluation metrics: Accuracy, Precision, Recall, F1-score  
+- Visualizations: Confusion matrix, prediction distribution, label comparison, BM25 score analysis  
+- JSON dataset support for claim–evidence pairs  
+- Complete pipeline from claim input → reasoning → evaluation → visualization  
 
 ---
 
@@ -44,7 +45,7 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Usage
-1. Make sure **Ollama** is installed and running locally:
+1. Make sure Ollama is installed and running locally:
    ```bash
    ollama run llama3.2
    ```
@@ -57,9 +58,9 @@ pip install -r requirements.txt
 ---
 
 ## 📊 Output
-- **Evaluation Metrics** (Accuracy, Precision, Recall, F1)  
-- **Reasoning & Predictions** for each claim  
-- **Plots** saved in `results/graphs/`:  
+- Evaluation Metrics (Accuracy, Precision, Recall, F1)  
+- Reasoning & Predictions for each claim  
+- Plots saved in `results/`:  
   - Confusion Matrix  
   - Prediction Accuracy Distribution (Pie Chart)  
   - Predicted vs Actual Labels (Line Plot)  
