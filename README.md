@@ -37,7 +37,7 @@ fact-checking-llm/
 ## ⚙️ Installation
 ```bash
 git clone https://github.com/GaganaBhaskar/TripleR-Fact-check.git
-cd fact-checking-llm
+cd TripleR-Fact-check
 pip install -r requirements.txt
 ```
 
@@ -81,9 +81,6 @@ pip install -r requirements.txt
 Ollama API – http://localhost:11434/api/generate    #for claim verification reasoning
 
 ---
-
-
----
 ##🙏 Acknowledgement
 
-I would like to extend my sincere gratitude to my mentors, Leena Chandrashekar and Pavan Kumar C, for their invaluable guidance, encouragement, and continuous support throughout this project. Their mentorship and insights were fundamental to the successful completion of this work
+I would like to extend my sincere gratitude to my mentors, Leena Chandrashekar and Pavan Kumar C, for their invaluable guidance, encouragement, and continuous support throughout this project. Their mentorship and insights were fundamental to the successful completion of this work.
